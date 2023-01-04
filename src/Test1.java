@@ -4,6 +4,7 @@ class Counter{
 	
 	// burada thread safe saglamak icin synchronized i kullanabiliriz. 
 	// boylelikle ayni anda birden fazla thread degisilik yapmayacaktir.
+	// bunun disinda atomicinteger kullanarakta thread safe yapabiliriz.
 	public synchronized void increment() {
 		count++;
 	}
