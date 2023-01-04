@@ -2,7 +2,9 @@
 class Counter{
 	int count;
 	
-	public void increment() {
+	// burada thread safe saglamak icin synchronized i kullanabiliriz. 
+	// boylelikle ayni anda birden fazla thread degisilik yapmayacaktir.
+	public synchronized void increment() {
 		count++;
 	}
 }
