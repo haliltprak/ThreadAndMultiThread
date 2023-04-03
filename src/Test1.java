@@ -43,6 +43,7 @@ public class Test1 {
 		
 		System.out.println(c.count);
 		System.out.println("Test");
+		System.out.println("Test");
 	}
 
 }
