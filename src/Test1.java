@@ -42,6 +42,7 @@ public class Test1 {
 		t2.join();
 		
 		System.out.println(c.count);
+		System.out.println("Test");
 	}
 
 }
